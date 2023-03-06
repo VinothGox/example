@@ -56,7 +56,7 @@ body:
         - Facebook group
         - General issues
   - type: textarea
-    id: Issue Links
+    id: IssueLinks
     attributes:
       label: IssueLinks
       description: Ticket Link & Screenshots
