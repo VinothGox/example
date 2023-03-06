@@ -43,7 +43,7 @@ body:
         - MariaDB
         - Api Bridge   
   - type: dropdown
-    id: Issue Source
+    id: IssueSource
     attributes:
       label: Issue Source
       options:
@@ -80,7 +80,7 @@ body:
         - Medium
         - Low
         - Very Low
-        - None      
+        - none      
   - type: textarea
     id: Description
     attributes:
