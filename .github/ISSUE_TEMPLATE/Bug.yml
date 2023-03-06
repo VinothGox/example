@@ -58,7 +58,7 @@ body:
   - type: textarea
     id: Issue Links
     attributes:
-      label: Issue Links
+      label: IssueLinks
       description: Ticket Link & Screenshots
   - type: dropdown
     id: App
@@ -79,8 +79,7 @@ body:
         - High
         - Medium
         - Low
-        - Very Low
-        - none      
+        - Very Low      
   - type: textarea
     id: Description
     attributes:
