@@ -1,0 +1,87 @@
+name: Task
+description: Task
+title: "[Story]: "
+labels: ["task", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
+    attributes:
+      label: Customer Email-ID
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: dropdown
+    id: dataSource
+    attributes:
+      label: Affected Data Source
+      description: Data Source Types
+      options:
+        - Facebook Ads
+        - Facebook Insights
+        - Cloud Firestore
+        - Google Ads
+        - Google Analytics
+        - Google Analytics 4
+        - Google My Business
+        - Google Search Console
+        - Instagram Insights
+        - Linkedin Ads
+        - Microsoft Ads
+        - Page Speed Insights
+        - Pinterest Ads
+        - Shopify
+        - Snapchat Ads
+        - Klaviyo
+        - WooCommerce
+        - Tiktok Ads
+        - Mysql
+        - Psql
+        - MariaDB
+        - Api Bridge   
+  - type: dropdown
+    id: IssueSource
+    attributes:
+      label: Issue Source
+      options:
+        - Chat Support
+        - Ticket Support
+        - Paul mail
+        - Slack
+        - Webinar
+        - Paul FB chat
+        - Facebook group
+        - General issues
+  - type: textarea
+    id: IssueLinks
+    attributes:
+      label: IssueLinks
+      description: Ticket Link & Screenshots
+  - type: dropdown
+    id: App
+    attributes:
+      label: App
+      multiple: true
+      options:
+        - Google sheets
+        - GDS
+        - Gox website
+        - App manage
+        - Accounts
+  - type: dropdown
+    id: Priority
+    attributes:
+      label: Priority
+      options:
+        - High
+        - Medium
+        - Low
+        - Very Low      
+  - type: textarea
+    id: Description
+    attributes:
+      label: Description
+      description: Descripe the issues
