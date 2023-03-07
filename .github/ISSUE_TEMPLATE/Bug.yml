@@ -58,7 +58,7 @@ body:
   - type: textarea
     id: IssueLinks
     attributes:
-      label: IssueLinks
+      label: Issue Links
       description: Ticket Link & Screenshots
   - type: dropdown
     id: App
@@ -85,3 +85,8 @@ body:
     attributes:
       label: Description
       description: Descripe the issues
+  - type: textarea
+    id: Attachments
+    attributes:
+      label: Attachments
+      description: Issues realted screenshots      
